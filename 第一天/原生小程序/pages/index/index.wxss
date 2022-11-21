@@ -1,0 +1,30 @@
+/* index的页面 css样式 */
+.indexContainer{
+    /* 把高度撑开 */
+    height: 100%;
+    background-color: skyblue;
+    display:flex;
+    /* 撑开方式  我们从 横轴 变为 侧洲 */
+    flex-direction: column;
+    /* 每一项居中 */
+    align-items: center;
+}
+.indexContainer .avatar{
+    /* 让它变成一个圆 */
+    border-radius: 50%;
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 50rpx;
+}
+
+.indexContainer .nickName{
+    margin: 50rpx 0 500rpx 0;
+}
+
+.indexContainer .content{
+    margin-top: 50rpx;
+    font-size: 50rpx;
+    /* 用于增加空格之间的宽度   
+    .letter-spacing: 10rpx;
+    */
+}

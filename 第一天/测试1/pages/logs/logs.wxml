@@ -1,0 +1,3 @@
+<view class="logsContainer">
+    <button bindtap="toIndex">点击我去首页</button>
+</view>

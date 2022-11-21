@@ -1,0 +1,4 @@
+<view>
+    <!-- bindtap 是冒泡事件 -->
+    <button bindtap="toIndex">点我回首页</button>
+</view>

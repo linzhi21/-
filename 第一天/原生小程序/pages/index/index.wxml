@@ -1,0 +1,8 @@
+<view class="indexContainer">
+<image class="avatar" src=" {{userInfo.avatarUrl || '../../static/QQ图片20221121191922.jpg'}}"></image>
+<text class="nickName">{{userInfo.nickName?userInfo.nickName:'大志不爱吃辣'}}</text>
+
+<!-- bindtap 绑定的事件  会向上事件冒泡 -->
+<button bindtap="getUserInfo" wx:if="{{!userInfo.avatarUrl}}">点我给你授权</button>
+<text class="content">Hello Word</text>
+</view>

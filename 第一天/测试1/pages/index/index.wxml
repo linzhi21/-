@@ -1,0 +1,6 @@
+<view class="indexContainer">
+    <image src="{{userInfo.avatarUrl || '/staic/QQ图片20221121191922.jpg'}}" class="avatar"></image>
+    <text class="nickName" >{{userInfo.nickName?userInfo.nickName:'阳光不燥,微风正好'}}</text>
+    <button bindtap="getUserInfo" wx:if="{{!userInfo.nickName}}">点我授权</button>
+    <text class="content">欢迎来到小程序</text>
+</view>
